@@ -1,5 +1,6 @@
 import React from 'react'
 import Search from './Search'
+import Chats from './Chats'
 
 function Sidebar() {
   return (
@@ -9,6 +10,7 @@ function Sidebar() {
         </div>
         <div className="card-body">
             <Search/>
+            <Chats/>
         </div>
     </div>
   )
