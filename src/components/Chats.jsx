@@ -21,7 +21,7 @@ function Chats() {
                 unsub()
             }
         }
-
+        
         currentUser.uid && getChats()
     },[currentUser.uid])
 
