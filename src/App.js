@@ -11,7 +11,7 @@ import Protected from './PrivateRoute/Protected'
 function App() {
   return (
     <BrowserRouter>
-        <ToastContainer autoClose={4000} position={'bottom-right'} />
+        <ToastContainer autoClose={4000} position={'top-right'} />
           <Routes>
             {/* as a children */}
                 {/* <Route path={`/`} element={
