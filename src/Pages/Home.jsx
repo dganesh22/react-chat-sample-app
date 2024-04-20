@@ -8,11 +8,11 @@ function Home() {
     <section id='home'>
         <Menu/>
         <div className="container-fluid">
-            <div className="row" style={{ height: '100vh'}}>
-                <div className="col-md-4 col-lg-3 col-sm-12 p-2" style={{ height: '100vh'}}>
+            <div className="row">
+                <div className="col-md-4 col-lg-3 col-sm-12 p-2">
                     <Sidebar/>
                 </div>
-                <div className="col-md-8 col-lg-9 col-sm-12 p-2" style={{ height: '100vh'}}>
+                <div className="col-md-8 col-lg-9 col-sm-12 p-2">
                     <Chat/>
                 </div>
             </div>
