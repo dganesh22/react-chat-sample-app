@@ -27,7 +27,7 @@ function Register() {
         e.preventDefault()
         setLoading(true)
         try {
-            let displayName = fName.current.value;
+            let displayName = fName.current.value.toLocaleLowerCase();
             let email = fEmail.current.value;
             let password = fPassword.current.value;
             let file = fileData

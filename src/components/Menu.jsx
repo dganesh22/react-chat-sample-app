@@ -19,7 +19,7 @@ function Menu() {
     }
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-success">
+    <nav className="navbar navbar-expand-md navbar-dark bg-success fixed-top mb-5">
         <div className="container">
             <div className="navbar-brand">Chat-App</div>
 
@@ -30,7 +30,7 @@ function Menu() {
             <div className="collapse navbar-collapse justify-content-end" id="menu">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <img src={currentUser?.photoURL} alt="no image" className="img-fluid rounded-circle" height={50} width={50} />
+                        <img src={currentUser?.photoURL} alt="no image" className="img-fluid rounded-circle" style={{ height: '40px', width: '40px'}} />
                         <strong className="text-light ps-2 pe-2"> Welcome, { currentUser?.displayName } </strong>
                         <Link onClick={logOut} className="btn btn-danger btn-sm">Logout</Link>
                     </li>

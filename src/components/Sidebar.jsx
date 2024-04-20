@@ -1,18 +1,20 @@
 import React from 'react'
-import Search from './Search'
-import Chats from './Chats'
+import Search from './Sidebar/Search'
+import Chats from './Sidebar/Chats'
 
 function Sidebar() {
   return (
-    <div className='card mt-2' style={{ height: '80vh'}}>
-        <div className="card-header">
-            Users
+    <React.Fragment>
+         <div className='card mt-2' style={{ height: '80vh'}}>
+            <div className="card-header">
+                Users
+            </div>
+            <div className="card-body">
+                <Search/>
+                <Chats/>
+            </div>
         </div>
-        <div className="card-body">
-            <Search/>
-            <Chats/>
-        </div>
-    </div>
+    </React.Fragment>
   )
 }
 
