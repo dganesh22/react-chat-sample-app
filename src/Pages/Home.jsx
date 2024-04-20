@@ -7,7 +7,7 @@ function Home() {
   return (
     <section id='home'>
         <Menu/>
-        <div className="container-fluid mt-5">
+        <div className="container-fluid">
             <div className="row" style={{ height: '100vh'}}>
                 <div className="col-md-4 col-lg-3 col-sm-12 p-2" style={{ height: '100vh'}}>
                     <Sidebar/>

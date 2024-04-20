@@ -19,7 +19,7 @@ function Menu() {
     }
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-success fixed-top mb-5">
+    <nav className="navbar navbar-expand-md navbar-dark bg-success">
         <div className="container">
             <div className="navbar-brand">Chat-App</div>
 
